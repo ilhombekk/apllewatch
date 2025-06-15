@@ -1,6 +1,7 @@
 /* custom props */
 :root{
     --primary:#ea625c;
+    --primary-drak: #c9514c;
     --text-color:#333;
 }
 
@@ -115,4 +116,54 @@ margin-right: 40px;
     padding-bottom: 6px;
     border: 0;
     border-bottom: 1px solid #333;
+}
+
+/* hero  */
+
+.hero {
+    padding-top: 140px;
+    padding-bottom: 185px;
+    border-bottom: 2px solid #ddd;
+    background-image: url("../img/apple-watch.svg.jpg");
+    background-repeat: no-repeat;
+    background-position: left calc(50% + 555px) bottom;
+}
+/* lead-cte  */
+.lead-cte {
+    width: 100%;
+    max-width: 490px;
+}
+.lead-cte-heading {
+    margin-top: 0;
+    margin-bottom: 30px;
+    font-size: 50px;
+    line-height: 1.2;
+    color: #000;
+}
+.lead-cte-text {
+    padding-left: 37px;
+    border-left: 3px solid #888;
+    margin-top: o;
+    margin-bottom: 30px;
+    color: #777;
+}
+.button {
+    text-decoration: none;
+    display: inline-block;
+    background-color: var(--primary);
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 18px;
+    line-height: 1.5;
+    font-weight: bold;
+    padding: 12px 38px;
+    border: 0;
+    translate: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: var(--primary-drak);
+}
+.button:active {
+    opacity: 0.6;
 }
