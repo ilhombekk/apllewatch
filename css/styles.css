@@ -152,6 +152,8 @@ margin-right: 40px;
     display: inline-block;
     background-color: var(--primary);
     color: #fff;
+    min-width: 260px;
+    text-align: center;
     text-transform: uppercase;
     font-size: 18px;
     line-height: 1.5;
@@ -229,4 +231,40 @@ margin-right: 40px;
 }
 .lined-link:hover::before {
     width: 60px;
+}
+/* promo  */
+.promo {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.promo-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.promo-img {
+    width: 400px;
+    height: 600px;
+    object-fit: cover;
+}
+/* runners  */
+.runners {
+    padding-top: 240px;
+    padding-bottom: 240px;
+    background-image: url("../img/logo-begavoya.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.runners-lead-cte {
+    margin-left: auto;
+}
+
+.lead-cte--white .lead-cte-heading {
+    color: #fff;
+}
+.lead-cte--white .lead-cte-text {
+    color: #fff;
+    border-color: #fff;
 }
